@@ -8,14 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject
+    private var appCoordinator: RouteService
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        appCoordinator.tabs(Tabs.allCases)
     }
 }

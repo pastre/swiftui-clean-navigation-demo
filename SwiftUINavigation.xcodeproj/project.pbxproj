@@ -11,6 +11,16 @@
 		D7CADA50276CC37F00F30465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA4F276CC37F00F30465 /* ContentView.swift */; };
 		D7CADA52276CC38000F30465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CADA51276CC38000F30465 /* Assets.xcassets */; };
 		D7CADA55276CC38000F30465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CADA54276CC38000F30465 /* Preview Assets.xcassets */; };
+		D7CADA5C276CDAFE00F30465 /* RouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA5B276CDAFE00F30465 /* RouteService.swift */; };
+		D7CADA5E276CDB1D00F30465 /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA5D276CDB1D00F30465 /* NavigationState.swift */; };
+		D7CADA63276CDB8500F30465 /* MyFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA62276CDB8500F30465 /* MyFeatureView.swift */; };
+		D7CADA66276CF85A00F30465 /* FeatureRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA65276CF85A00F30465 /* FeatureRouting.swift */; };
+		D7CADA69276CFCB600F30465 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA68276CFCB600F30465 /* View+Extensions.swift */; };
+		D7CADA6B276CFCCD00F30465 /* NavigationLink+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA6A276CFCCD00F30465 /* NavigationLink+Extensions.swift */; };
+		D7CADA6D276CFDF200F30465 /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA6C276CFDF200F30465 /* Binding+Extensions.swift */; };
+		D7CADA6F276CFF9500F30465 /* TabRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA6E276CFF9500F30465 /* TabRepresentable.swift */; };
+		D7CADA72276D01C100F30465 /* TabRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA71276D01C100F30465 /* TabRouteView.swift */; };
+		D7CADA74276D01DC00F30465 /* AppTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CADA73276D01DC00F30465 /* AppTabs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		D7CADA4F276CC37F00F30465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7CADA51276CC38000F30465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7CADA54276CC38000F30465 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7CADA5B276CDAFE00F30465 /* RouteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
+		D7CADA5D276CDB1D00F30465 /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationState.swift; sourceTree = "<group>"; };
+		D7CADA62276CDB8500F30465 /* MyFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFeatureView.swift; sourceTree = "<group>"; };
+		D7CADA65276CF85A00F30465 /* FeatureRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRouting.swift; sourceTree = "<group>"; };
+		D7CADA68276CFCB600F30465 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		D7CADA6A276CFCCD00F30465 /* NavigationLink+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationLink+Extensions.swift"; sourceTree = "<group>"; };
+		D7CADA6C276CFDF200F30465 /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
+		D7CADA6E276CFF9500F30465 /* TabRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRepresentable.swift; sourceTree = "<group>"; };
+		D7CADA71276D01C100F30465 /* TabRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRouteView.swift; sourceTree = "<group>"; };
+		D7CADA73276D01DC00F30465 /* AppTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,8 @@
 		D7CADA4C276CC37F00F30465 /* SwiftUINavigation */ = {
 			isa = PBXGroup;
 			children = (
-				D7CADA4D276CC37F00F30465 /* SwiftUINavigationApp.swift */,
-				D7CADA4F276CC37F00F30465 /* ContentView.swift */,
+				D7CADA64276CF84E00F30465 /* Core */,
+				D7CADA70276CFFC100F30465 /* Demo */,
 				D7CADA51276CC38000F30465 /* Assets.xcassets */,
 				D7CADA53276CC38000F30465 /* Preview Content */,
 			);
@@ -65,6 +85,40 @@
 				D7CADA54276CC38000F30465 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7CADA64276CF84E00F30465 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D7CADA5B276CDAFE00F30465 /* RouteService.swift */,
+				D7CADA65276CF85A00F30465 /* FeatureRouting.swift */,
+				D7CADA5D276CDB1D00F30465 /* NavigationState.swift */,
+				D7CADA6E276CFF9500F30465 /* TabRepresentable.swift */,
+				D7CADA67276CFCA900F30465 /* Adapters */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D7CADA67276CFCA900F30465 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				D7CADA68276CFCB600F30465 /* View+Extensions.swift */,
+				D7CADA6A276CFCCD00F30465 /* NavigationLink+Extensions.swift */,
+				D7CADA6C276CFDF200F30465 /* Binding+Extensions.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		D7CADA70276CFFC100F30465 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D7CADA4D276CC37F00F30465 /* SwiftUINavigationApp.swift */,
+				D7CADA73276D01DC00F30465 /* AppTabs.swift */,
+				D7CADA4F276CC37F00F30465 /* ContentView.swift */,
+				D7CADA62276CDB8500F30465 /* MyFeatureView.swift */,
+				D7CADA71276D01C100F30465 /* TabRouteView.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CADA5C276CDAFE00F30465 /* RouteService.swift in Sources */,
+				D7CADA5E276CDB1D00F30465 /* NavigationState.swift in Sources */,
+				D7CADA66276CF85A00F30465 /* FeatureRouting.swift in Sources */,
+				D7CADA74276D01DC00F30465 /* AppTabs.swift in Sources */,
+				D7CADA63276CDB8500F30465 /* MyFeatureView.swift in Sources */,
+				D7CADA6D276CFDF200F30465 /* Binding+Extensions.swift in Sources */,
 				D7CADA50276CC37F00F30465 /* ContentView.swift in Sources */,
+				D7CADA69276CFCB600F30465 /* View+Extensions.swift in Sources */,
 				D7CADA4E276CC37F00F30465 /* SwiftUINavigationApp.swift in Sources */,
+				D7CADA6B276CFCCD00F30465 /* NavigationLink+Extensions.swift in Sources */,
+				D7CADA6F276CFF9500F30465 /* TabRepresentable.swift in Sources */,
+				D7CADA72276D01C100F30465 /* TabRouteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

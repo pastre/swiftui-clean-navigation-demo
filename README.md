@@ -11,6 +11,7 @@ A POC regarding a clean and simple navigation service for SwiftUI
 - [ ] Deep linking
 - [ ] Navigate using structs + complex route
 - [ ] Separate context for different navigation stacks
+- [ ] Dependency between routes
 - [ ] Add navigation lifecycle (willDissmiss, didDissmiss, navigation's completion closure and transaction)
 - [ ] Start service using a TabView
 - [ ] Start service using a single view
